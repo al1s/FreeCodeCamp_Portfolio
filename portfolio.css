@@ -45,14 +45,18 @@ textarea {
   display: flex;
   align-items: center; 
 }
-
 .thumbnail {
   border: none;/*1px solid #F2D7EE;*/
   background-color: inherit;
   margin-top: 20px;
 }
-
-
+.nav-up {
+    top: -60px;
+}
+.btn {
+  background-color: #0E103D;
+  color: #aaa;
+}
 
 #logo {
   margin: 5px 5px 2px 0px;

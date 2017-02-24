@@ -3,7 +3,9 @@
   <!-- TO DO
       on mobile: hide nav when scrolling; 
       on mobile: add "to top" link to the bottom;
-      on mobile: hide menu bar automaticaly after selecting an item;
+      
+      UX: hide menu bar automaticaly after selecting an item;
+      UX: make each section fade-in and fade out;
 
       +position: align all elements to the same schema: two columns for wide, one - for sm and xs screens;
       +position: make fixed width for the whole page on wide screens;
@@ -12,7 +14,7 @@
       color: make font color align width background color;
       color: make color of button SEND aligned with back color;
   -->
-  <nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" >
+  <nav class="navbar navbar-default navbar-fixed-top nav-down" data-spy="affix" >
     <div class="container">
       
       <div class="row">
@@ -52,7 +54,7 @@
         </div>
       </div>
       <div class="col-xs-12 col-sm-4 col-md-4">
-           <img src="http://lorempixel.com/200/200/people/1" class="img-responsive img-circle center-block" alt="about_photo">
+           <img src="http://lorempixel.com/200/200/people/1" class="img-responsive img-circle" alt="about_photo">
       </div>
     </div>
   </div>
@@ -89,7 +91,7 @@
             <input type="text" label="Name" placeholder="NAME" form="contact_me">
             <input type="email" label="Email" placeholder="EMAIL" form="contact_me">
             <textarea placeholder="MESSAGE" form="contact_me"></textarea>
-            <button type="sumbit" class="btn btn-primary" form="contact_me"><span class="glyphicon glyphicon-send"></span> Send</button>
+            <button type="sumbit" class="btn" form="contact_me"><span class="glyphicon glyphicon-send"></span> Send</button>
           </form>
         </div>
       </div>
